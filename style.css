@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(254, 247, 247);
+}
+
+header {
+    padding-block: 0.8em;
+    border-bottom:2px solid black ;
+}
+.wrapper__container {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* main {
+    border: 8px solid palevioletred;
+} */
+.wrapper__container2 {
+    /* border: 5px solid black; */
+    width: 40%;
+    margin-top: 5em;
+    height: 300px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.dotted__container {
+    border: 5px dotted rgba(0, 0, 0, 0.253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90%;
+    width: 95%;
+}
